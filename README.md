@@ -1,10 +1,11 @@
 # Team Task Manager
 
-A Full-Stack Task Management Web Application built using Flask, SQLAlchemy, Bootstrap, and SQLite with role-based authentication and task tracking features.
+A Full-Stack Task Management Web Application built using Flask, SQLAlchemy, Bootstrap, and SQLite.  
+The application allows teams to create projects, assign tasks, manage progress, and track work efficiently with role-based authentication.
 
 ---
 
-## Features
+# Features
 
 - User Signup & Login Authentication
 - Role-Based Access Control (Admin / Member)
@@ -14,32 +15,32 @@ A Full-Stack Task Management Web Application built using Flask, SQLAlchemy, Boot
 - Dashboard with Task Overview
 - Responsive UI using Bootstrap
 - Secure Password Hashing
-- Live Deployment on Railway
+- Live Deployment
 
 ---
 
-## Tech Stack
+# Tech Stack
 
-### Frontend
+## Frontend
 - HTML
 - CSS
 - Bootstrap 5
 - JavaScript
 
-### Backend
+## Backend
 - Flask
 - Flask SQLAlchemy
 - Flask Login
 
-### Database
+## Database
 - SQLite
 
-### Deployment
-- Railway
+## Deployment
+- Render / Railway
 
 ---
 
-## Folder Structure
+# Folder Structure
 
 ```bash
 team-task-manager-flask/
@@ -60,53 +61,87 @@ team-task-manager-flask/
 │
 ├── static/
 │   └── style.css
-Installation
+```
+
+---
+
+# Installation
+
+```bash
 pip install -r requirements.txt
 python app.py
-Functionalities
-Admin
-Create Projects
-Create Tasks
-Assign Tasks
-Manage Task Status
-View Dashboard
-Member
-View Assigned Tasks
-Track Task Progress
-Dashboard
+```
+
+---
+
+# Functionalities
+
+## Admin
+- Create Projects
+- Create Tasks
+- Assign Tasks
+- Manage Task Status
+- View Dashboard
+
+## Member
+- View Assigned Tasks
+- Track Task Progress
+
+---
+
+# Dashboard
 
 The dashboard displays:
+- Total Tasks
+- Completed Tasks
+- Pending Tasks
+- Task Details
 
-Total Tasks
-Completed Tasks
-Pending Tasks
-Task Details
-Security Features
-Password Hashing using Werkzeug
-Session-Based Authentication
-Role-Based Route Protection
-API Routes
-Authentication
-/signup
-/login
-/logout
-Project Management
-/create-project
-Task Management
-/create-task
-/my-tasks
-Dashboard
-/dashboard
-Deployment
+---
 
-The application is deployed using Railway for live hosting and accessibility.
+# Security Features
 
-Future Improvements
-Email Notifications
-Task Priority Levels
-File Uploads
-Search & Filters
-Dark Mode
-Author
+- Password Hashing using Werkzeug
+- Session-Based Authentication
+- Role-Based Route Protection
 
-Syed Naseera
+---
+
+# API Routes
+
+## Authentication
+- `/signup`
+- `/login`
+- `/logout`
+
+## Project Management
+- `/create-project`
+
+## Task Management
+- `/create-task`
+- `/my-tasks`
+
+## Dashboard
+- `/dashboard`
+
+---
+
+# Deployment
+
+The application is deployed online for live accessibility and testing.
+
+---
+
+# Future Improvements
+
+- Email Notifications
+- Task Priority Levels
+- File Uploads
+- Search & Filters
+- Dark Mode
+
+---
+
+# Author
+
+**Syed Naseera**
